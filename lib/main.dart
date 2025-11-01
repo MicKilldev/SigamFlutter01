@@ -48,6 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
+        Image.asset('assets/Image/Sigma.jpg', height: 300, width: 300,),
         Row (
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -56,6 +57,8 @@ class _MyHomePageState extends State<MyHomePage> {
             Icon(Icons.star, color: Colors.white),
           ],
         ),
+
+
         Center(
           child: const Text(
               "You have pushed the button this many times.",
